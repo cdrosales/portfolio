@@ -8,7 +8,7 @@
     <div class="front-page-wrapper">
         <div class="front-page-content">
             <ul>
-                <li>Developer.</li>
+                <li><a href="<?php the_permalink(); ?>/webdevelopment">Developer.</a></li>
                 <li><a href="<?php the_permalink(); ?>/ui-design">Designer.</a></li>
                 <li><a href="<?php the_permalink(); ?>/photography">Photographer.</a></li>
                 <li>Videographer.</li>

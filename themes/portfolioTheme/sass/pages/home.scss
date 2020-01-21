@@ -14,6 +14,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto;
     grid-row-gap: 1%;
     grid-column-gap: 1.5%;
     margin: 0 auto 5% auto;
@@ -24,4 +25,14 @@
         width: 100%;
         height: auto;
     }
+}
+
+.wide-grid-wrapper{
+    margin: 0 auto 5% auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 2.5%;
+    grid-column-gap: 1%;
 }

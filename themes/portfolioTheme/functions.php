@@ -46,5 +46,25 @@ function portfolio_photography(){
 add_action('init', 'portfolio_photography');
 
 
+function portfolio_webDevelopment(){
+    register_post_type('webDevelopment', array( 
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Web Development', 
+            'add_new_item' => 'Add New Site',
+            'edit_item' => 'Edit Site',
+            'all_items' => 'All Sites',
+            'singular_name' => 'Site' 
+        ),
+
+        'menu_icon' => 'dashicons-hammer'
+    ));
+}
+
+add_action('init', 'portfolio_webDevelopment');
+
 
 ?>
