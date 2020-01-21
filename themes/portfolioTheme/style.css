@@ -213,7 +213,8 @@ em {
     text-decoration: none;
     color: black; }
   .front-page-content a:hover {
-    font-family: 'Avenir Black Oblique'; }
+    font-family: 'Avenir Black Oblique';
+    color: plum; }
 
 .page-info-wrapper {
   text-align: center;
@@ -237,7 +238,7 @@ em {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 2%;
+  grid-row-gap: 1%;
   grid-column-gap: 1.5%;
   margin: 0 auto 5% auto;
   width: 75%;

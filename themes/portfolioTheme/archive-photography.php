@@ -11,7 +11,7 @@
         while ( have_posts() ): 
             the_post();?> 
 
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large'); ?></a>
+       <?php the_post_thumbnail('large'); ?>
 
         <?php endwhile; ?> 
 
