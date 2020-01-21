@@ -7,6 +7,12 @@
 
     <div class="front-page-wrapper">
         <div class="front-page-content">
+            <ul>
+                <li>Developer.</li>
+                <li>Designer.</li>
+                <li>Photographer.</li>
+                <li>Videographer.</li>
+            <ul>
             <?php the_content(); ?>
         </div>
 

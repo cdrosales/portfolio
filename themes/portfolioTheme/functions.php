@@ -14,7 +14,12 @@ add_action('wp_enqueue_scripts', 'inhabitant_files');//add stylesheet
 //Adds theme support - ex: title tag
 function inhabitant_features(){
     add_theme_support('post-thumbnails');
-    add_theme_support ('title-tag'); // wordpress method
+    add_theme_support ('title-tag'); 
+    register_nav_menus( array(
+        'primary' => 'Primary Menu', 
+        'footer' => 'Footer Menu',
+        'shop' => 'Product Categories Menu'
+    ));
 }
 add_action('after_setup_theme', 'inhabitant_features');
 ?>
