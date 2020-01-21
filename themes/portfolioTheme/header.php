@@ -11,7 +11,9 @@
 
 <div class="header-wrapper">
 
-    <h1>Cara Denise Rosales</h1>
+    <a href="http://localhost:8888/portfolio/home">
+        <h1>Cara Denise Rosales</h1>
+    </a>
 
     <div class="nav">
         <?php wp_nav_menu( array('theme_location' => 'primary')); ?>
