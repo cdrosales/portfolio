@@ -10,7 +10,7 @@
             <ul>
                 <li>Developer.</li>
                 <li><a href="<?php the_permalink(); ?>/ui-design">Designer.</a></li>
-                <li>Photographer.</li>
+                <li><a href="<?php the_permalink(); ?>/photography">Photographer.</a></li>
                 <li>Videographer.</li>
             <ul>
             <?php the_content(); ?>

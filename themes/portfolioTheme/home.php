@@ -6,7 +6,7 @@
         in a user friendly and accessible format.</p>
 </div>
 
-<div class="ui-img-wrapper">
+<div class="grid-img-wrapper">
 <?php if( have_posts() ): 
     while ( have_posts() ): 
         the_post();?> 

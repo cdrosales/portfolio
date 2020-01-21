@@ -233,16 +233,16 @@ em {
     width: 35%;
     line-height: 1.5; }
 
-.ui-img-wrapper {
+.grid-img-wrapper {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 3%;
+  grid-row-gap: 2%;
   grid-column-gap: 1.5%;
   margin: 0 auto 5% auto;
   width: 75%;
   height: auto; }
-  .ui-img-wrapper img {
+  .grid-img-wrapper img {
     width: 100%;
     height: auto; }
 
