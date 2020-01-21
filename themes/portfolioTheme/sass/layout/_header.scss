@@ -20,3 +20,15 @@
             text-decoration: none;
         }
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 560px;
+
+    li{
+        padding: 0 10px;
+    }
+}
