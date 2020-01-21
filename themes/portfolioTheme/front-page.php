@@ -5,8 +5,15 @@
     while ( have_posts() ): 
         the_post();?> 
 
-    <?php the_content(); ?>
-    <?php the_post_thumbnail(); ?>
+    <div class="front-page-wrapper">
+        <div class="front-page-content">
+            <?php the_content(); ?>
+        </div>
+
+        <div class="front-page-img">
+        <?php the_post_thumbnail(); ?>
+        </div>
+    </div>
 
     <?php endwhile; ?> 
 
