@@ -6,7 +6,7 @@
 </div>
 
 
-<div class="grid-img-wrapper">
+<div class="grid-img-wrapper photography-grid">
     <?php if( have_posts() ):
         while ( have_posts() ): 
             the_post();?> 
