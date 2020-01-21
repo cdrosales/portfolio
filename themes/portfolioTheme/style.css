@@ -196,7 +196,11 @@ em {
   border-radius: 24px; }
 
 .fa-github {
-  font-size: 42px; }
+  font-size: 42px;
+  color: black; }
+
+.fa-github:hover {
+  color: plum; }
 
 .fa-instagram {
   background-color: black;
@@ -204,6 +208,9 @@ em {
   font-size: 28px;
   padding: 7px;
   border-radius: 27px; }
+
+.fa-instagram:hover, .fa-medium-m:hover {
+  background-color: plum; }
 
 .footer-icons {
   display: -webkit-box;
@@ -217,6 +224,21 @@ em {
       justify-content: space-around;
   width: 20%;
   margin: 3% auto; }
+
+.front-page-footer {
+  padding-top: 40%;
+  height: 60px; }
+  .front-page-footer .footer-icons {
+    width: 40%;
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .front-page-footer .footer-icons .fa-medium-m, .front-page-footer .footer-icons .fa-instagram {
+      margin-bottom: 12px; }
 
 .front-page-wrapper {
   margin-top: -100px;
@@ -233,7 +255,7 @@ em {
      object-fit: cover; }
 
 .front-page-content {
-  margin: 0 auto;
+  margin: 20% auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,7 +276,7 @@ em {
     font-family: 'Avenir Light Oblique';
     letter-spacing: 2px;
     font-size: 20px;
-    margin-top: 1%; }
+    margin: 1% 0 0 0; }
   .front-page-content a {
     text-decoration: none;
     color: black; }

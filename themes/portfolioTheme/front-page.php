@@ -13,7 +13,12 @@
                 <li><a href="<?php the_permalink(); ?>/photography">Photographer.</a></li>
                 <li>Videographer.</li>
             <ul>
+
             <?php the_content(); ?>
+
+            <div class="front-page-footer">
+                <?php get_footer(); ?>
+            </div>
         </div>
 
         <div class="front-page-img">
@@ -29,4 +34,3 @@
         <p>No posts found</p>
 <?php endif; ?>
 
-<?php get_footer(); ?>
