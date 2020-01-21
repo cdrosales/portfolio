@@ -7,4 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php bloginfo('title');?></title>
 </head>
-<body <?php body_class();?>> <!-- dynamically adds in class name depends on waht page its at -->
+<body <?php body_class();?>> 
+
+<div class="wrapper">
