@@ -1,0 +1,20 @@
+@mixin header-title{
+    text-transform: uppercase;
+    font-family: 'Avenir Heavy';
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 1.5%;
+    @content;
+}
+
+@mixin header-info{
+    width: 45%;
+     margin: 0 auto;
+    font-family: 'Avenir Light';
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: 35%;
+    line-height: 1.5;
+    @content;
+
+}

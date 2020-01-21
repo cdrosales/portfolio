@@ -11,7 +11,7 @@
 
 <div class="header-wrapper">
 
-    <h2>Cara Denise Rosales</h2>
+    <h1>Cara Denise Rosales</h1>
 
     <div class="nav">
         <?php wp_nav_menu( array('theme_location' => 'primary')); ?>

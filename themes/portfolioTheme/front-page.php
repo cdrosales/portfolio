@@ -9,7 +9,7 @@
         <div class="front-page-content">
             <ul>
                 <li>Developer.</li>
-                <li>Designer.</li>
+                <li><a href="<?php the_permalink(); ?>/ui-design">Designer.</a></li>
                 <li>Photographer.</li>
                 <li>Videographer.</li>
             <ul>

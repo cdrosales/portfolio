@@ -15,12 +15,13 @@ Text Domain: inhabitant
 @import 'base/reset';
 @import 'base/typography';
 
-@import 'layout/navigation';
-@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 
 @import 'pages/front-page';
+@import 'pages/home';
+
+
 
 @import 'themes/theme';
 @import 'themes/admin';

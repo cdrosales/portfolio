@@ -1,0 +1,26 @@
+.page-info-wrapper{
+    text-align: center;
+    margin: 5% auto;
+        h2{
+            @include header-title;
+        }
+        p{
+            @include header-info;
+        }
+}
+
+.ui-img-wrapper{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 3%;
+    grid-column-gap: 1.5%;
+    margin: 0 auto 5% auto;
+    width: 75%;
+    height: auto;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
