@@ -142,3 +142,15 @@
     font-style: normal;
 }
 
+h2{
+    @include title;
+}
+
+strong{
+    font-family: 'Avenir Heavy';
+    font-size: 20px;
+}
+
+em{
+    font-family: 'Avenir Oblique';
+}

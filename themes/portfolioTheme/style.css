@@ -138,6 +138,20 @@ table {
   font-weight: 900;
   font-style: normal; }
 
+h2 {
+  text-transform: uppercase;
+  font-family: 'Avenir Heavy';
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-bottom: 1.5%; }
+
+strong {
+  font-family: 'Avenir Heavy';
+  font-size: 20px; }
+
+em {
+  font-family: 'Avenir Oblique'; }
+
 .header-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -230,6 +244,19 @@ table {
   .ui-img-wrapper img {
     width: 100%;
     height: auto; }
+
+.content-wrapper {
+  margin: 0 auto; }
+  .content-wrapper img {
+    width: 100%;
+    height: auto; }
+  .content-wrapper p {
+    width: 45%;
+    margin: 1% auto;
+    font-family: 'Avenir';
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px; }
 
 .wrapper {
   width: 90%;

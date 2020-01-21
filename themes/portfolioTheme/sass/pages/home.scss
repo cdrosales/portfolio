@@ -2,7 +2,7 @@
     text-align: center;
     margin: 5% auto;
         h2{
-            @include header-title;
+            @include title;
         }
         p{
             @include header-info;

@@ -1,14 +1,18 @@
 <?php get_header(); ?>
 
-<h1><?php bloginfo('name'); ?></h1>
 
     
 <?php if( have_posts() ):
     while ( have_posts() ): 
         the_post();?> 
 
-    <h2><?php the_title(); ?></h2> 
-    <?php the_content(); ?>
+    <div class="page-info-wrapper">
+        <h2><?php the_title(); ?></h2> 
+    </div>
+
+    <div class="content-wrapper">
+        <?php the_content(); ?>
+    </div>
 
 
     <?php endwhile; ?> 
