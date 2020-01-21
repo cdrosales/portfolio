@@ -66,5 +66,25 @@ function portfolio_webDevelopment(){
 
 add_action('init', 'portfolio_webDevelopment');
 
+function portfolio_videography(){
+    register_post_type('videography', array( 
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Videography', 
+            'add_new_item' => 'Add New Video',
+            'edit_item' => 'Edit Video',
+            'all_items' => 'All Video',
+            'singular_name' => 'Video' 
+        ),
+
+        'menu_icon' => 'dashicons-video-alt2'
+    ));
+}
+
+add_action('init', 'portfolio_videography');
+
 
 ?>

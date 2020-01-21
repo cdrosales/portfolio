@@ -12,7 +12,7 @@
 <div class="header-wrapper">
 
     <a href="http://localhost:8888/portfolio/home">
-        <h1>Cara Denise Rosales</h1>
+        <h1><?php bloginfo(); ?></h1>
     </a>
 
     <div class="nav">

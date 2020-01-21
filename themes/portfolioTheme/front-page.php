@@ -11,7 +11,7 @@
                 <li><a href="<?php the_permalink(); ?>/webdevelopment">Developer.</a></li>
                 <li><a href="<?php the_permalink(); ?>/ui-design">Designer.</a></li>
                 <li><a href="<?php the_permalink(); ?>/photography">Photographer.</a></li>
-                <li>Videographer.</li>
+                <li><a href="<?php the_permalink(); ?>/videography">Videographer.</a></li>
             <ul>
 
             <?php the_content(); ?>
