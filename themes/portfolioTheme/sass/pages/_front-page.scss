@@ -4,7 +4,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    z-index: 100;
+    // z-index: -100;
 }
 .front-page-img{
     img{

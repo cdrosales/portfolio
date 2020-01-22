@@ -6,6 +6,7 @@
         the_post();?> 
 
     <div class="front-page-wrapper">
+    
         <div class="front-page-content">
             <ul>
                 <li><a href="<?php the_permalink(); ?>/webdevelopment">Developer.</a></li>
