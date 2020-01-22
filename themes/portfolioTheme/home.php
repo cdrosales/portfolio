@@ -11,12 +11,20 @@
     while ( have_posts() ): 
         the_post();?> 
 
-    <div class="grid-post-wrapper">       
-        <?php the_post_thumbnail('large'); ?>
+    <div class="grid-post-wrapper">    
+        <div class="grid-post">   
+            <?php the_post_thumbnail('large'); ?>
+            
+            </div>
         <div class="overlay">
-            <a href="<?php the_permalink(); ?>"><button>View Project</button></a>
+            <a href="<?php the_permalink(); ?>">
+            <button>View Project</button></a>
+            
         </div>
+        
+
     </div>
+
 
 
     <?php endwhile; ?> 

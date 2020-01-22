@@ -4,10 +4,11 @@
     img{
         width: 100%;
         height: auto;
-        margin: 2% 0;
+        margin: 1% auto 2% auto;
     }
     p{
         width: 64%;
+        min-width: 550px;
         margin: 0 auto 2% auto;
         font-family: 'Avenir';
         font-size: 17px;
@@ -16,19 +17,28 @@
         text-align: center;
         font-family: 'Avenir Book';
     }
+    iframe{
+        margin: 2% auto;
+        width: 100%;
+    }
 }
 
 .wp-block-button{
-    margin: 5% auto;
+    margin: 1% auto 5% auto;
     width: 20%;
     display: flex;
     justify-content: center;
 
     a{
-        background-color: plum;
+        background-color: black;
+        padding: 17px 24px 14px 24px;
         color: white;
-        font-family: 'Roboto';
+        font-family: 'Avenir Heavy';
+        letter-spacing: 2px;
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 16px;
+    }
+    a:hover{
+        background-color: plum;
     }
 }

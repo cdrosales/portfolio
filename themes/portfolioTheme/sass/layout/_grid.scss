@@ -1,22 +1,12 @@
 
-.page-info-wrapper{
-    text-align: center;
-    margin: 5% auto;
-        h2{
-            @include title;
-        }
-        p{
-            @include header-info;
-        }
-}
 
 .grid-img-wrapper{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
-    grid-row-gap: 1%;
-    grid-column-gap: 1.5%;
+    grid-row-gap: 1.5%;
+    grid-column-gap: 1%;
     margin: 0 auto 5% auto;
     width: 90%;
     height: auto;
@@ -97,3 +87,9 @@
 }
 
 
+.grid-video-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}

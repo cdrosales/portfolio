@@ -2,3 +2,14 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.page-info-wrapper{
+    text-align: center;
+    margin: 5% auto 3% auto;
+        h2{
+            @include title;
+        }
+        p{
+            @include header-info;
+        }
+}

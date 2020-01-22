@@ -48,7 +48,7 @@ add_action('init', 'portfolio_photography');
 
 function portfolio_webDevelopment(){
     register_post_type('webDevelopment', array( 
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail','excerpt'),
         'public' => true,
         'show_in_rest' => true,
         'has_archive' => true,

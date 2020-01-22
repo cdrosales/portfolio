@@ -6,7 +6,7 @@
 </div>
 
 
-    <div class="wide-grid-wrapper">
+    <div class="grid-video-wrapper">
             <?php if( have_posts() ):
                 while ( have_posts() ): 
                     the_post();?> 
