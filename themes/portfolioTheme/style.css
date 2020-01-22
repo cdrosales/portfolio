@@ -162,6 +162,17 @@ h3 {
 strong em {
   font-family: 'Avenir Heavy Oblique'; }
 
+.content-wrapper p {
+  width: 70%;
+  min-width: 680px;
+  margin: 0 auto 2% auto;
+  font-family: 'Avenir';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Avenir Book'; }
+
 .header-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -175,7 +186,7 @@ strong em {
     text-transform: uppercase;
     font-size: 26px;
     margin: 0 auto;
-    width: 65%; }
+    width: 75%; }
   .header-wrapper a {
     font-family: 'Roboto';
     text-transform: uppercase;
@@ -220,7 +231,7 @@ strong em {
   background-color: black;
   color: white;
   font-size: 28px;
-  padding: 7px;
+  padding: 7px 8px;
   border-radius: 27px; }
 
 .fa-instagram:hover, .fa-medium-m:hover {
@@ -252,7 +263,8 @@ strong em {
         -ms-flex-align: center;
             align-items: center; }
     .front-page-footer .footer-icons .fa-medium-m, .front-page-footer .footer-icons .fa-instagram {
-      margin-bottom: 12px; }
+      margin-bottom: 12px;
+      padding-right: 6.5px; }
 
 .grid-img-wrapper {
   margin: 0 auto;
@@ -300,6 +312,8 @@ strong em {
     font-size: 16px;
     letter-spacing: 2px;
     cursor: pointer; }
+  .grid-post-wrapper button:hover {
+    background-color: #AF69AA; }
 
 .grid-post-wrapper:hover .overlay {
   display: block;
@@ -329,6 +343,7 @@ strong em {
 
 .grid-video-wrapper {
   width: 80%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,16 +403,6 @@ strong em {
     width: 100%;
     height: auto;
     margin: 1% auto 2% auto; }
-  .content-wrapper p {
-    width: 64%;
-    min-width: 550px;
-    margin: 0 auto 2% auto;
-    font-family: 'Avenir';
-    font-size: 17px;
-    line-height: 26px;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: 'Avenir Book'; }
   .content-wrapper iframe {
     margin: 2% auto;
     width: 100%; }
@@ -436,10 +441,11 @@ strong em {
     font-size: 22px;
     margin-bottom: 1.5%; }
   .page-info-wrapper p {
-    width: 45%;
+    width: 75%;
+    min-width: 450px;
     margin: 0 auto;
-    font-family: 'Avenir Light';
-    font-size: 16px;
+    font-family: 'Avenir Medium';
+    font-size: 18px;
     letter-spacing: 1.5px;
     width: 35%;
     line-height: 1.5; }
