@@ -146,11 +146,6 @@ h2{
     @include title;
 }
 
-strong{
-    font-family: 'Avenir Heavy';
-    font-size: 20px;
-}
-
 em{
     font-family: 'Avenir Oblique';
 }
@@ -162,14 +157,6 @@ h3{
     padding: 3px 0;
     text-transform: uppercase;
 }
-
-strong{
-    em{
-        font-family: 'Avenir Heavy Oblique';
-
-    }
-}
-
 .content-wrapper{
     p{
         width: 70%;
@@ -181,5 +168,12 @@ strong{
         letter-spacing: 1px;
         text-align: center;
         font-family: 'Avenir Book';
+    }
+    strong{
+        font-family: 'Avenir Medium';
+        font-size: 20px;
+        em{
+            font-family: 'Avenir Heavy Oblique';
+        }
     }
 }
