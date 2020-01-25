@@ -89,19 +89,27 @@
     }
 }
 
-
 .grid-video-wrapper{
     width: 80%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
+    iframe{
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 600px) {
-    .grid-img-wrapper{
+    .grid-img-wrapper, .wide-grid-wrapper{
         display: inline-block;
         width: 100%;
     }
+    .grid-video-wrapper{
+        flex-direction: column;
+        align-content: space-between;
+        width: 100%;
+    } 
+
 }
