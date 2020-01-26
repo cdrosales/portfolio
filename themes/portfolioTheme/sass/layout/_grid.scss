@@ -110,6 +110,11 @@
         flex-direction: column;
         align-content: space-between;
         width: 100%;
+        iframe{
+            height: auto;
+            margin-bottom: 10%;
+        }
     } 
+
 
 }
