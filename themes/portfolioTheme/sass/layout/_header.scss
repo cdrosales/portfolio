@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 100px;
+
     
 
         h1{
@@ -12,6 +13,7 @@
         font-size: 26px;
         margin: 0 auto;
         width: 75%;
+
         }
 
         a{
@@ -21,6 +23,7 @@
             font-size: 15px;
             text-decoration: none;
             letter-spacing: 1px;
+            z-index: 300;
         }
         a:hover{
             font-weight: 900;

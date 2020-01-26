@@ -192,7 +192,8 @@ h3 {
     color: black;
     font-size: 15px;
     text-decoration: none;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    z-index: 300; }
   .header-wrapper a:hover {
     font-weight: 900; }
 
@@ -293,12 +294,23 @@ h3 {
 @media screen and (max-width: 600px) {
   .footer-icons {
     width: 55%;
-    margin-bottom: 7%; } }
+    margin-bottom: 7%; }
+  .front-page-footer {
+    padding-top: 0;
+    margin: 20% auto 10% auto; }
+    .front-page-footer li {
+      height: 44px; }
+    .front-page-footer .footer-icons {
+      width: 55%;
+      margin: 8% auto 5% auto; } }
 
 @media screen and (min-width: 600px) and (max-width: 1240px) {
   .footer-icons {
-    width: 30%;
-    margin: 8% auto 5% auto; } }
+    width: 30%; }
+  .front-page-footer li {
+    height: 44px; }
+  .front-page-footer .footer-icons {
+    width: 67%; } }
 
 .grid-img-wrapper {
   margin: 0 auto;
@@ -444,6 +456,41 @@ h3 {
   .front-page-content a:hover {
     font-family: 'Avenir Black Oblique';
     color: plum; }
+
+@media screen and (max-width: 600px) {
+  .front-page-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: auto;
+    margin-top: 0; }
+  .front-page-content {
+    text-align: center;
+    width: 85%;
+    height: auto;
+    margin: 7% auto 0 auto; }
+    .front-page-content li {
+      font-size: 24px;
+      margin-bottom: 3%; }
+    .front-page-content p {
+      margin-top: 5%;
+      font-size: 19px;
+      line-height: 1.4; } }
+
+@media screen and (min-width: 600px) and (max-width: 1240px) {
+  .front-page-content {
+    width: 85%; }
+    .front-page-content li {
+      font-size: 28px;
+      line-height: 1.4; }
+    .front-page-content p {
+      margin-top: 5%;
+      font-size: 18px;
+      line-height: 1.3; } }
 
 .content-wrapper {
   width: 70%;

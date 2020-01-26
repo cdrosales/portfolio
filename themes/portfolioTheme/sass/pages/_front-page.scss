@@ -4,7 +4,6 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // z-index: -100;
 }
 .front-page-img{
     img{
@@ -40,5 +39,45 @@
     a:hover{
         font-family: 'Avenir Black Oblique';
         color: plum;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .front-page-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 0;
+    }
+    .front-page-content{
+        text-align: center;
+        width: 85%;
+        height: auto;
+        margin: 7% auto 0 auto;
+        li{
+            font-size: 24px;
+            margin-bottom: 3%;
+        }
+        p{
+            margin-top: 5%;
+            font-size: 19px;
+            line-height: 1.4;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1240px) {
+    .front-page-content{
+        width: 85%;
+        li{
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        p{
+            margin-top: 5%;
+            font-size: 18px;
+            line-height: 1.3;
+        }
+
     }
 }

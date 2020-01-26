@@ -55,12 +55,32 @@
         width: 55%;
         margin-bottom: 7%;
     }
+    .front-page-footer{
+        padding-top: 0;
+        margin: 20% auto 10% auto;
+        li{
+            height: 44px;
+        }
+        .footer-icons{
+            width: 55%;
+            margin: 8% auto 5% auto;
+        }
+    }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 1240px) {
     .footer-icons{
         width: 30%;
-        margin: 8% auto 5% auto;
     }
+    .front-page-footer{
+        li{
+            height: 44px;
+        }
+        .footer-icons{
+            width: 67%;
+        }
+    }
+
 }
 
