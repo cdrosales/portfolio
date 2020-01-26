@@ -295,6 +295,11 @@ h3 {
     width: 55%;
     margin-bottom: 7%; } }
 
+@media screen and (min-width: 600px) and (max-width: 1240px) {
+  .footer-icons {
+    width: 30%;
+    margin: 8% auto 5% auto; } }
+
 .grid-img-wrapper {
   margin: 0 auto;
   display: grid;
@@ -376,31 +381,26 @@ h3 {
 .grid-video-wrapper {
   width: 80%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3%;
   margin: 0 auto; }
-  .grid-video-wrapper iframe {
-    width: 100%; }
+  .grid-video-wrapper figure {
+    margin: 0 auto; }
 
 @media screen and (max-width: 600px) {
   .grid-img-wrapper, .wide-grid-wrapper {
     display: inline-block;
-    width: 100%; }
+    width: 100%; } }
+
+@media screen and (max-width: 1000px) {
   .grid-video-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
+    display: inline-block;
+    overflow: hidden;
     width: 100%; }
     .grid-video-wrapper iframe {
-      height: auto;
-      margin-bottom: 10%; } }
+      margin: 0 auto 3% auto;
+      width: 100%; } }
 
 .front-page-wrapper {
   margin-top: -100px;
