@@ -24,7 +24,6 @@
     background-color: plum;
 }
 
-
 .footer-icons{
     display: flex;
     flex-direction: row;
@@ -62,7 +61,7 @@
             height: 44px;
         }
         .footer-icons{
-            width: 55%;
+            width: 60%;
             margin: 8% auto 5% auto;
         }
     }
@@ -78,7 +77,8 @@
             height: 44px;
         }
         .footer-icons{
-            width: 67%;
+            width: 60%;
+            max-width: 350px;
         }
     }
 

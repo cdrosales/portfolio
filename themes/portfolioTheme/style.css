@@ -172,6 +172,13 @@ h3 {
   .content-wrapper strong em {
     font-family: 'Avenir Heavy Oblique'; }
 
+@media screen and (max-width: 600px) {
+  .content-wrapper p {
+    width: 100%;
+    margin: 4% auto; }
+    .content-wrapper p strong {
+      font-size: 16px; } }
+
 .header-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -301,7 +308,7 @@ h3 {
     .front-page-footer li {
       height: 44px; }
     .front-page-footer .footer-icons {
-      width: 55%;
+      width: 60%;
       margin: 8% auto 5% auto; } }
 
 @media screen and (min-width: 600px) and (max-width: 1240px) {
@@ -310,7 +317,8 @@ h3 {
   .front-page-footer li {
     height: 44px; }
   .front-page-footer .footer-icons {
-    width: 67%; } }
+    width: 60%;
+    max-width: 350px; } }
 
 .grid-img-wrapper {
   margin: 0 auto;
@@ -554,16 +562,17 @@ h3 {
     width: 35%; }
 
 @media screen and (max-width: 600px) {
-  .page-info-wrapper p {
-    font-size: 14px;
-    min-width: 300px;
-    margin-bottom: 10%; }
-  .page-info-wrapper h2 {
-    font-size: 18px;
-    margin-bottom: 5%; }
+  .page-info-wrapper {
+    margin-bottom: 8%; }
+    .page-info-wrapper p {
+      font-size: 16px;
+      min-width: 300px; }
+    .page-info-wrapper h2 {
+      font-size: 18px;
+      margin-bottom: 5%; }
   .content-wrapper {
     margin: 0 auto;
-    min-width: 300px; }
+    min-width: 330px; }
     .content-wrapper p {
       font-size: 14px;
       height: auto;
