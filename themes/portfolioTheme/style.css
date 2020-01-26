@@ -475,6 +475,11 @@ h3 {
   .wp-block-button a:hover {
     background-color: plum; }
 
+@media screen and (max-width: 600px) {
+  .wp-block-button {
+    width: 80%;
+    margin: 10% auto 20% auto; } }
+
 .wrapper {
   width: 90%;
   margin: 0 auto; }
@@ -495,5 +500,21 @@ h3 {
     font-family: 'Avenir Medium';
     font-size: 18px;
     letter-spacing: 1.5px;
-    width: 35%;
-    line-height: 1.5; }
+    line-height: 1.5;
+    width: 35%; }
+
+@media screen and (max-width: 600px) {
+  .page-info-wrapper p {
+    font-size: 14px;
+    min-width: 300px;
+    margin-bottom: 10%; }
+  .page-info-wrapper h2 {
+    font-size: 18px;
+    margin-bottom: 5%; }
+  .content-wrapper {
+    margin: 0 auto;
+    min-width: 300px; }
+    .content-wrapper p {
+      font-size: 14px;
+      height: auto;
+      min-width: 300px; } }
