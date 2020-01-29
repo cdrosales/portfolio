@@ -41,7 +41,10 @@
         background-color: plum;
         color: white;
         border: none;
-        padding: 15px 24px 12px 24px;
+        height: 12%;
+        min-height: 48px;
+        min-width: 200px;
+        width: 60%;
         font-size: 16px;
         letter-spacing: 2px;
         cursor: pointer;
