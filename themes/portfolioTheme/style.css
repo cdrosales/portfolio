@@ -237,7 +237,7 @@ h3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 10% auto 15% auto; }
+    margin: 10% auto; }
     .header-wrapper a {
       width: 100%;
       text-align: center;
@@ -420,7 +420,9 @@ h3 {
     width: 100%; }
     .grid-video-wrapper iframe {
       margin: 0 auto 3% auto;
-      width: 100%; } }
+      width: 100%; }
+  .grid-post-wrapper button {
+    opacity: none; } }
 
 .front-page-wrapper {
   margin-top: -100px;

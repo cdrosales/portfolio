@@ -107,7 +107,6 @@
         display: inline-block;
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -120,5 +119,11 @@
         width: 100%;   
         }
     }
+    .grid-post-wrapper{
+        button{
+            opacity: none;
+        }
+    }
+
 }
 
