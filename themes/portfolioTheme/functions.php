@@ -18,7 +18,6 @@ function portfolio_features(){
     register_nav_menus( array(
         'primary' => 'Primary Menu', 
         'footer' => 'Footer Menu',
-        'shop' => 'Product Categories Menu'
     ));
 }
 add_action('after_setup_theme', 'portfolio_features');
