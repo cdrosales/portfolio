@@ -11,7 +11,7 @@
 
 <div class="header-wrapper">
 
-    <a href="http://localhost:8888/portfolio/home">
+    <a href="www.cararosales.com">
         <h1><?php bloginfo(); ?></h1>
     </a>
 
