@@ -11,7 +11,7 @@
 
 <div class="header-wrapper">
 
-    <a href="cararosales.com">
+    <a href="http://cararosales.com">
         <h1><?php bloginfo(); ?></h1>
     </a>
 
