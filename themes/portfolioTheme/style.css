@@ -299,7 +299,7 @@ h3 {
   padding-top: 40%;
   height: 60px; }
   .front-page-footer .footer-icons {
-    width: 40%;
+    width: 60%;
     margin: 0;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -571,6 +571,10 @@ h3 {
     margin: 10% auto 20% auto; }
   .content-wrapper {
     width: 90%; } }
+
+@media screen and (max-width: 900px) {
+  .overlay {
+    opacity: 0; } }
 
 .wrapper {
   width: 90%;
