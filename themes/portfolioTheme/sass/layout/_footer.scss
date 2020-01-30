@@ -38,7 +38,9 @@
     height: 60px;
 
         .footer-icons{
-            width: 60%;
+            width: 42%;
+            max-width: 260px;
+            min-width: 200px;
             margin: 0;
             justify-content: space-between;
             align-items: center;
