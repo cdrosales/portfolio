@@ -2,6 +2,8 @@
     text-transform: uppercase;
     font-family: 'Avenir Heavy';
     letter-spacing: 1px;
+    font-weight: 900;
+    font-style: normal;
     font-size: 22px;
     margin-bottom: 1.5%;
     @content;
@@ -12,6 +14,8 @@
     min-width: 450px;
     margin: 0 auto;
     font-family: 'Avenir Medium';
+    font-weight: 500;
+    font-style: normal;
     font-size: 18px;
     letter-spacing: 1.5px;
     line-height: 1.5;
