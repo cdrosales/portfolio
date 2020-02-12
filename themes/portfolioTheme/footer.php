@@ -8,6 +8,8 @@
         <li><a href="https://instagram.com/cr.eatives/"><i class="fab fa-instagram"></i></a></li>
     </ul>
 
+    <h4 class="email"><a href="mailto:caradeniserosales@gmail.com" class="email-link"><i class="far fa-envelope"></i>caradeniserosales@gmail.com</a></h4>
+
 </footer>
 
 </body>

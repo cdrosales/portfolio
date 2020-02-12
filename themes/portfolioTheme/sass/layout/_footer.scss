@@ -42,13 +42,22 @@
             max-width: 260px;
             min-width: 200px;
             margin: 0;
+            padding-bottom: 2.5%;
             justify-content: space-between;
             align-items: center;
             .fa-medium-m, .fa-instagram{
                 margin-bottom: 12px;
                 padding-right: 6.5px;
             }
-       }
+        }
+        h4{
+            text-align: left;
+        }
+        .email-link:hover{
+        font-family: 'Avenir Light';
+        font-weight: normal;
+        font-style: normal;
+        }
 }
 
 @media screen and (max-width: 600px) {
@@ -64,8 +73,19 @@
         }
         .footer-icons{
             width: 60%;
-            margin: 10% auto;
+            margin: 10% auto 4% auto;
         }
+        h4{
+            text-align: center;
+        }
+        a:hover{
+            font-family: 'Avenir Light';
+        }
+        
+    }
+    h4{
+        text-align: center;
+        margin-bottom: 8%;
     }
 
 }

@@ -161,6 +161,29 @@ h3{
     padding: 3px 0;
     text-transform: uppercase;
 }
+
+h4{
+    font-family: 'Avenir Light';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: plum;
+    }
+    .fa-envelope{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+}
+
 .content-wrapper{
     p{
         width: 70%;
