@@ -365,7 +365,13 @@ h4 {
     height: 44px; }
   .front-page-footer .footer-icons {
     width: 60%;
-    max-width: 350px; } }
+    max-width: 350px;
+    margin-bottom: 7%; }
+  .front-page-footer h4 {
+    font-size: 13px;
+    letter-spacing: 1px; }
+    .front-page-footer h4 .fa-envelope {
+      font-size: 13px; } }
 
 .grid-img-wrapper {
   margin: 0 auto;
