@@ -16,11 +16,12 @@
             <?php the_post_thumbnail('large'); ?>
             
             </div>
-        <div class="overlay">
             <a href="<?php the_permalink(); ?>">
-            <button>View Project</button></a>
-            
+
+        <div class="overlay">
+            <button>View Project</button>
         </div>
+        </a>
         
 
     </div>

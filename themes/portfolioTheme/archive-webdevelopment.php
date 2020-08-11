@@ -9,13 +9,20 @@
             <?php if( have_posts() ):
                 while ( have_posts() ): 
                     the_post();?> 
+
+    <div class="grid-post-wrapper new-new-new">    
+            <div class="grid-post">   
+                <?php the_post_thumbnail('large'); ?>
                 
-                <div class="grid-post-wrapper">       
-                    <?php the_post_thumbnail('large'); ?>
+            </div>
+                <a href="<?php the_permalink(); ?>">
+
                     <div class="overlay">
-                        <a href="<?php the_permalink(); ?>"><button>View Project</button></a>
+                        <button>View Project</button>
                     </div>
-                </div>
+                </a>
+
+        </div>
 
                 <?php endwhile; ?> 
 
